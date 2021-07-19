@@ -3,9 +3,10 @@ This program implements the following steps using FILE HANDLING in python.
     Step 1 : Creating a file containing records of the students Marks in each subject.
     Step 2 : Read the file created in step 1, generate the marksheets of individual student and save it in a file named <studentName_rollno>.
     Step 3 : Also generate a file containing Name of students scoring highest Marks subject-wise.
+ Submitted by Shubham Sharma !
 '''
 
-import os       #Importing OS module
+import os       #Importing OS module 
 import pickle   #Importing pickle module
 
 def allStudentFile(n,listSubjects): # Implementing Step 1
